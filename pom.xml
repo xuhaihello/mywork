@@ -16,13 +16,7 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>2.1.1</version>
                 <configuration>
-                    <webResources>
-                        <resource>
-                            <directory>src/main/resources/spring</directory>
-                            <filtering>true</filtering>
-                            <targetPath>WEB-INF</targetPath>
-                        </resource>
-                    </webResources>
+                    <warName>mywork</warName>
                 </configuration>
             </plugin>
         </plugins>
