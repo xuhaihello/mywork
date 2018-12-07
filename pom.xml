@@ -6,6 +6,7 @@
 
     <groupId>test</groupId>
     <artifactId>com.test</artifactId>
+    <packaging>war</packaging>
     <version>1.0.0</version>
 
 
